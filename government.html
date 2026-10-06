@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Government Login | KisanSetu</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Government Login CSS -->
+    <link rel="stylesheet" href="css/government.css">
+</head>
+
+
+<body>
+
+    <div class="government-page">
+
+
+        <!-- =====================================================
+             LEFT SIDE
+        ====================================================== -->
+
+        <section class="government-left">
+
+            <!-- Background Image -->
+            <img src="assets/images/Serene Agricultural Government Landscape.png" alt="Agricultural Government Landscape" class="government-background-image">
+
+            <!-- Light Transparent Layer -->
+            <div class="government-overlay"></div>
+
+
+            <!-- LEFT SIDE CONTENT -->
+            <div class="government-content">
+
+                <!-- KISANSETU BRAND -->
+                <div class="government-brand">
+
+                    <div class="brand-icon">
+                        <i class="bi bi-flower1"></i>
+                    </div>
+
+                    <span>
+                Kisan<span>Setu</span>
+                    </span>
+
+                </div>
+
+
+                <p class="brand-tagline">
+                    Smart Farming • Better Decisions • Brighter Tomorrow
+                </p>
+
+
+                <!-- MAIN TITLE -->
+                <h1 class="government-title">
+                    Empowering
+                    <br> Agriculture
+                    <br>
+                    <span>Through Data.</span>
+                </h1>
+
+
+                <!-- DESCRIPTION -->
+                <p class="government-description">
+                    Access agricultural data, reports and policy management tools.
+                </p>
+
+
+                <!-- FEATURES -->
+                <div class="government-features">
+
+                    <div class="gov-feature">
+
+                        <div class="gov-icon">
+                            <i class="bi bi-bar-chart-fill"></i>
+                        </div>
+
+                        <span>
+                    Data<br>
+                    Insights
+                </span>
+
+                    </div>
+
+
+                    <div class="feature-divider"></div>
+
+
+                    <div class="gov-feature">
+
+                        <div class="gov-icon">
+                            <i class="bi bi-file-earmark-text-fill"></i>
+                        </div>
+
+                        <span>
+                    Reports &<br>
+                    Analytics
+                </span>
+
+                    </div>
+
+
+                    <div class="feature-divider"></div>
+
+
+                    <div class="gov-feature">
+
+                        <div class="gov-icon">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+
+                        <span>
+                    Policy<br>
+                    Management
+                </span>
+
+                    </div>
+
+
+                    <div class="feature-divider"></div>
+
+
+                    <div class="gov-feature">
+
+                        <div class="gov-icon">
+                            <i class="bi bi-leaf-fill"></i>
+                        </div>
+
+                        <span>
+                    Farmer<br>
+                    Welfare
+                </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BOTTOM MESSAGE -->
+                <div class="government-message">
+
+                    <div class="message-icon">
+                        <i class="bi bi-building"></i>
+                    </div>
+
+                    <p>
+                        Strengthening agricultural governance for a sustainable and prosperous future.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =====================================================
+             LEFT SIDE END
+
+        <!-- =====================================================
+             RIGHT SIDE
+        ====================================================== -->
+
+        <section class="government-right">
+
+
+            <div class="government-card">
+
+
+                <!-- =================================================
+                     WELCOME
+                ================================================== -->
+
+                <div class="government-welcome">
+
+
+                    <div class="welcome-icon">
+
+                        <i class="bi bi-bank2"></i>
+
+                    </div>
+
+
+                    <div>
+
+                        <h2>
+                            Welcome, Official 👋
+                        </h2>
+
+                        <p>
+                            Login to manage agricultural services
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     LOGIN FORM
+                ================================================== -->
+
+                <form id="governmentLoginForm">
+
+
+                    <!-- EMAIL / OFFICIAL ID -->
+
+                    <div class="government-input-group">
+
+                        <label>
+                            Email or Official ID
+                        </label>
+
+
+                        <div class="government-input">
+
+                            <i class="bi bi-person-badge"></i>
+
+
+                            <input type="text" name="official_id" placeholder="Enter your email or official ID" required>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- PASSWORD -->
+
+                    <div class="government-input-group">
+
+                        <label>
+                            Password
+                        </label>
+
+
+                        <div class="government-input">
+
+                            <i class="bi bi-lock"></i>
+
+
+                            <input type="password" id="governmentPassword" name="password" placeholder="Enter your password" required>
+
+
+                            <!-- PASSWORD TOGGLE -->
+
+                            <button type="button" class="government-password-toggle" onclick="toggleGovernmentPassword()">
+
+                                <i
+                                    id="governmentEye"
+                                    class="bi bi-eye">
+                                </i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- FORGOT PASSWORD -->
+
+                    <div class="government-forgot">
+
+                        <a href="#">
+                            Forgot Password?
+                        </a>
+
+                    </div>
+
+
+
+                    <!-- LOGIN BUTTON -->
+
+                    <button type="submit" class="government-login-button">
+
+                        <span>
+                            Login
+                        </span>
+
+                        <i class="bi bi-arrow-right"></i>
+
+                    </button>
+
+
+                </form>
+
+
+
+                <!-- =================================================
+                     REQUEST ACCESS
+                ================================================== -->
+
+                <div class="government-request">
+
+                    <span>
+                        Don't have an account?
+                    </span>
+
+                    <a href="#">
+                        Request Access
+                    </a>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     BACK TO HOME
+                ================================================== -->
+
+                <a href="index.html" class="government-back-home">
+
+                    <i class="bi bi-arrow-left"></i>
+
+                    <span>
+                        Back to Home
+                    </span>
+
+                </a>
+
+
+            </div>
+
+        </section>
+
+
+    </div>
+
+
+
+    <!-- Government Login JavaScript -->
+
+    <script src="js/government.js"></script>
+
+
+</body>
+
+</html>
